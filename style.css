@@ -1,0 +1,48 @@
+body{
+    text-align:center;
+    background-image: url(before.jpeg);
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: #fff;
+}
+.box{
+    height:100px;
+    width:100px;
+    position: relative;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    margin: 40px;
+    border: 2px solid #fff;
+    transition: 1s;
+    overflow: hidden;
+    text-decoration: none;
+    border-radius: 10%;
+}
+.box-container{
+    display:flex;
+    justify-content: center;
+}
+
+.flash{
+    background-color:#00c3ff;
+}
+.userflash{
+    background-color:#ffff1c;
+}
+
+.box span {
+    position: relative;
+    z-index: 1;
+    font-size: 2em;
+    color: #fff;
+    opacity: 0.8;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    transition: 0.5s;
+    font-weight: bolder;
+  }
+  
